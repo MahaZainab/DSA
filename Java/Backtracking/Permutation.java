@@ -1,5 +1,3 @@
-package Java.Backtracking;
-
 public class Permutation {
     public static void findPermutation( String str, String ans){
         //base case
@@ -17,7 +15,8 @@ public class Permutation {
     
     public static void main(String[] args) {
         System.out.println("This program will calculate permutation of the given number");
-        String str="abc"
+        String str="abc";
+        findPermutation(str, "");
     }
     
 }
